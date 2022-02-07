@@ -1,7 +1,0 @@
-[debug] > Exec({file:/C:/Work/Workspace/fileReader/}root/runMain, None, None)
-[error] Expected whitespace character
-[error] {file:/C:/Work/Workspace/fileReader/}root/runMain
-[error]                                                  ^
-[debug] > Exec(idea-shell, None, None)
-[debug] > Exec(, None, None)
-[debug] > Exec(idea-shell, None, None)
