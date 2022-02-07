@@ -1,0 +1,32 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 16 products, 7 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/com/nttdata/fileReader/reader/FileReader.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/Main.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/reader/CSVReader.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/exceptions/CustomException.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/constants/FileExtension.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/reader/TXTReader.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/util/Validator.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/exceptions/FileExtensionException.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/TXTReader.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/Main$delayedInit$body.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/exceptions/CustomException.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/constants/FileExtension.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/Main.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/exceptions/CustomException$$anonfun$$lessinit$greater$1.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/util/Validator$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/Main$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/FileReader$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/util/Validator.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/TXTReader$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/constants/FileExtension$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/FileReader.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/CSVReader.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/CSVReader$.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/exceptions/FileExtensionException.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/TXTReader.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/Main$delayedInit$body.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/exceptions/CustomException.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/constants/FileExtension.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/Main.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/exceptions/CustomException$$anonfun$$lessinit$greater$1.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/util/Validator$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/Main$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/FileReader$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/util/Validator.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/TXTReader$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/constants/FileExtension$.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/FileReader.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/CSVReader.class, ${BASE}/target/scala-2.13/classes/com/nttdata/fileReader/reader/CSVReader$.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set()
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/com/nttdata/fileReader/reader/FileReader.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/Main.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/reader/CSVReader.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/exceptions/CustomException.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/constants/FileExtension.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/reader/TXTReader.scala, ${BASE}/src/main/scala/com/nttdata/fileReader/util/Validator.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 7 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 7 Scala sources to C:\Work\Workspace\fileReader\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.6.0:compile for Scala 2.13.8
+[debug] [zinc] Running cached compiler 5d7c1512 for Scala compiler version 2.13.8
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\tortoraam\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar
+[debug] 	-classpath
+[debug] 	C:\Work\Workspace\fileReader\target\scala-2.13\classes
+[debug] Scala compilation took 1.1025658 s
+[info] done compiling

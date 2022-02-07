@@ -1,0 +1,53 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Work\Workspace\fileReader\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	FileExtensionException.class
+[debug] 	TXTReader.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	CustomException.class
+[debug] 	FileExtension.class
+[debug] 	Main.class
+[debug] 	CustomException$$anonfun$$lessinit$greater$1.class
+[debug] 	Validator$.class
+[debug] 	Main$.class
+[debug] 	FileReader$.class
+[debug] 	Validator.class
+[debug] 	TXTReader$.class
+[debug] 	FileExtension$.class
+[debug] 	FileReader.class
+[debug] 	CSVReader.class
+[debug] 	CSVReader$.class
+[debug] We backup class files:
+[debug] 	FileExtensionException.class
+[debug] 	TXTReader.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	CustomException.class
+[debug] 	FileExtension.class
+[debug] 	Main.class
+[debug] 	CustomException$$anonfun$$lessinit$greater$1.class
+[debug] 	Validator$.class
+[debug] 	Main$.class
+[debug] 	FileReader$.class
+[debug] 	Validator.class
+[debug] 	TXTReader$.class
+[debug] 	FileExtension$.class
+[debug] 	FileReader.class
+[debug] 	CSVReader.class
+[debug] 	CSVReader$.class
+[debug] Registering generated classes:
+[debug] 	FileExtensionException.class
+[debug] 	TXTReader.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	CustomException.class
+[debug] 	FileExtension.class
+[debug] 	Main.class
+[debug] 	CustomException$$anonfun$$lessinit$greater$1.class
+[debug] 	Validator$.class
+[debug] 	Main$.class
+[debug] 	FileReader$.class
+[debug] 	Validator.class
+[debug] 	TXTReader$.class
+[debug] 	FileExtension$.class
+[debug] 	FileReader.class
+[debug] 	CSVReader.class
+[debug] 	CSVReader$.class
+[debug] Removing the temporary directory used for backing up class files: C:\Work\Workspace\fileReader\target\scala-2.13\classes.bak

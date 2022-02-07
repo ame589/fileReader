@@ -1,0 +1,55 @@
+[debug] > Exec({file:/C:/Work/Workspace/fileReader/}root/run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 7 Scala sources to C:\Work\Workspace\fileReader\target\scala-2.13\classes ...
+[warn] C:\Work\Workspace\fileReader\src\main\scala\com\nttdata\fileReader\reader\FileReader.scala:22:12: patterns after a variable pattern cannot match (SLS 8.1.1)
+[warn]       case csvExtension => CSVReader(path)
+[warn]            ^
+[warn] C:\Work\Workspace\fileReader\src\main\scala\com\nttdata\fileReader\reader\FileReader.scala:23:37: unreachable code due to variable pattern 'csvExtension' on line 22
+[warn]       case txtExtension => TXTReader(path)
+[warn]                                     ^
+[warn] C:\Work\Workspace\fileReader\src\main\scala\com\nttdata\fileReader\reader\FileReader.scala:24:17: unreachable code due to variable pattern 'csvExtension' on line 22
+[warn]       case _ => throw new Exception
+[warn]                 ^
+[warn] 3 deprecations (since 2.13.2)
+[warn] 1 deprecation (since 2.13.3)
+[warn] 4 deprecations in total; re-run with -deprecation for details
+[warn] 6 warnings found
+[info] done compiling
+[error] java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+[error] 	at com.nttdata.fileReader.Main$.delayedEndpoint$com$nttdata$fileReader$Main$1(Main.scala:9)
+[error] 	at com.nttdata.fileReader.Main$delayedInit$body.apply(Main.scala:6)
+[error] 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+[error] 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+[error] 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+[error] 	at scala.App.$anonfun$main$1(App.scala:76)
+[error] 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+[error] 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+[error] 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+[error] 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+[error] 	at scala.App.main(App.scala:76)
+[error] 	at scala.App.main$(App.scala:74)
+[error] 	at com.nttdata.fileReader.Main$.main(Main.scala:6)
+[error] 	at com.nttdata.fileReader.Main.main(Main.scala)
+[error] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[error] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[error] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[error] 	at sbt.Run.invokeMain(Run.scala:143)
+[error] 	at sbt.Run.execute$1(Run.scala:93)
+[error] 	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)
+[error] 	at sbt.Run$.executeSuccess(Run.scala:186)
+[error] 	at sbt.Run.runWithLoader(Run.scala:120)
+[error] 	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1983)
+[error] 	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1922)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at scala.util.Try$.apply(Try.scala:213)
+[error] 	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:369)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+[error] (Compile / run) java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+[error] Total time: 2 s, completed 7 feb 2022, 21:15:31
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
