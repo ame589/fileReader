@@ -15,12 +15,9 @@ object FileReader {
 
   def getFileReader(path: String, extension: String): FileReader = {
 
-    val csvExtension = FileExtension.CSV.toString
-    val txtExtension = FileExtension.TXT.toString
-
     extension match {
-      case csvExtension => CSVReader(path)
-      case txtExtension => TXTReader(path)
+      case FileExtension.CSV => CSVReader(path)
+      case FileExtension.TXT => TXTReader(path)
       case _ => throw new Exception
     }
   }
