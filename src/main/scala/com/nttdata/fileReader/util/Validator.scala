@@ -4,7 +4,7 @@ import com.nttdata.fileReader.constants.FileExtension
 import com.nttdata.fileReader.exceptions.FileExtensionException
 
 import java.io.FileNotFoundException
-import java.nio.file.{Files, Path}
+import java.nio.file.{Files, Path, Paths}
 
 object Validator {
 
@@ -33,7 +33,7 @@ object Validator {
    */
   def validatePath(path: String): Boolean = {
 
-    Files.exists(Path.of(path))
+    Files.exists(Paths.get(path))
 
   }
 
