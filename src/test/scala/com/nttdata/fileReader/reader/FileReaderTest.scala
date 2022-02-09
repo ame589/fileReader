@@ -35,5 +35,4 @@ class FileReaderTest extends AnyFlatSpec with Matchers with GivenWhenThen {
     Then("An exception is fired")
   }
 
-
 }
