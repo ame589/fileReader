@@ -6,4 +6,10 @@ import org.scalatest.matchers.must.Matchers
 
 class ValidatorTest extends AnyFlatSpec with Matchers with GivenWhenThen {
 
+  behavior of "Validator"
+
+  it should "correctly return a CSVReader if the extension is CSV" in {
+
+  }
+
 }
